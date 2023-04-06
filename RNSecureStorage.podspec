@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       = { "Talut Tasgiran" => "info@taluttasgiran.com.tr" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/talut/rn-secure-storage.git", :tag => "v#{s.version}" }
-  s.source_files  = "**/*.{h,m}"
+  s.source_files  = "ios/RNSecureStorage.{h,m}"
   s.requires_arc = true
 
   s.dependency "React"
